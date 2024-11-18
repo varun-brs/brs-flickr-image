@@ -1,0 +1,101 @@
+:root {
+  --primary-color: #1a4b84;
+  --chathams_blue: #1a4b84;
+  --tamarillo: #991e14;
+  --yellow_sea: #fead06;
+}
+
+.mg-1,
+.mg-2 {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.mg-2 {
+  padding-left: 750px;
+}
+
+.header-mg {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999999;
+}
+
+.img-block {
+  width: 100%;
+  border: 1px solid black;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.img-block img {
+  width: 100%;
+}
+
+.stl-title-img {
+  background: black;
+  color: white;
+  margin-top: -5px;
+  text-align: center;
+  padding: 7px 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.boxShadowClass {
+  border-radius: 0px 0px 0px 0px;
+  border-width: 0px 0px 0px 0px;
+  border-style: solid solid solid solid;
+  border-color: rgba(179, 102, 179, 1) rgba(179, 102, 179, 1)
+    rgba(179, 102, 179, 1) rgba(179, 102, 179, 1);
+  -webkit-box-shadow: 15px 19px 21px -8px rgba(176, 176, 176, 1);
+  -moz-box-shadow: 15px 19px 21px -8px rgba(176, 176, 176, 1);
+  -ms-box-shadow: 15px 19px 21px -8px rgba(176, 176, 176, 1);
+  -o-box-shadow: 15px 19px 21px -8px rgba(176, 176, 176, 1);
+  box-shadow: 15px 19px 21px -8px rgba(176, 176, 176, 1);
+}
+
+.zoom {
+  padding: 50px;
+  transition: transform 0.2s;
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+h3.api {
+  margin-top: 90px;
+}
+
+div#main {
+  margin-left: 89%;
+  margin-top: -23px;
+}
+
+div#main a {
+  color: white;
+  font-size: 16px;
+}
+
+a.ml-5 {
+  margin-right: 17px;
+}
+
+.container {
+  padding: 25px;
+}
+
+#mdi {
+  font-size: 25px;
+  margin-left: 85%;
+  margin-top: 40px;
+}
